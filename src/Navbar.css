@@ -1,0 +1,25 @@
+
+@font-face {
+  font-family: 'Poppins-ExtraBold';
+  src: url('https://fonts.gstatic.com/s/poppins/v15/pxiEyp8kv8JHgFVrJJfecg.woff2') format('woff2');
+  font-weight: 8;
+  font-style: normal;
+}
+.label {
+  height: 26px;
+  width: 67px;
+}
+
+.label .text-wrapper {
+  color: #ffffff;
+  font-family: "Poppins-ExtraBold", Helvetica;
+  font-size: 25px;
+  font-weight: 800;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 27.5px;
+  position: fixed;
+  top: 0;
+  white-space: nowrap;
+  width: 67px;
+}

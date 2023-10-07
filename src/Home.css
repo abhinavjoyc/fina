@@ -1,0 +1,78 @@
+body {
+    position: relative;
+    height: 100vh; /* Set the height of the container to the full viewport height */
+    background: url('https://img.freepik.com/free-photo/galaxy-night-landscape_23-2148895320.jpg?w=1380&t=st=1696693937~exp=1696694537~hmac=193acf95a98e8b0b55a989a8c87d691a873145a59559ff080087b8d7e6535b39') center/cover no-repeat; /* Set the image as a background */
+  }
+  
+  
+  .label {
+    position: absolute;
+    top: 230px;
+    left: 10%;
+    transform: translateX(-50%);
+  }
+  
+  .label .text-wrapper {
+    color:white;
+    font-family: "Poppins-Black", Helvetica;
+    font-size: 130px;
+    font-weight: 900;
+    letter-spacing: 0;
+    line-height: 143px;
+    white-space: nowrap;
+  }
+  
+  .content {
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: white; /* Adjust text color based on your design */
+  }
+  
+  .content p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .btn-primary-primary {
+    font-size: 1.2em;
+    padding-left: 10px;
+  }
+  
+  /* Add any additional styles you need */
+  /* Home.css */
+
+/* ... (existing styles) ... */
+
+.btn-explore-projects {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 50px;
+  display: flex;
+  gap: 10px;
+  height: 43px;
+  overflow: hidden;
+  padding: 10px 20px;
+  position: relative;
+  width: 217px;
+}
+
+.btn-explore-projects .text-wrapper {
+  color: #022b3c;
+  font-family: "Poppins-Medium", Helvetica;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 19.8px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.btn-explore-projects .vector {
+  height: 14.73px;
+  margin-right: -1px;
+  position: relative;
+  width: 26px;
+}
